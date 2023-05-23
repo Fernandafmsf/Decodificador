@@ -15,7 +15,7 @@ main{
   grid-template-columns: 2fr 1fr;
   height: 100vh;
 
-  margin: 0.2em 0.5em;
+  margin: 0 0.5em;
 }
 
 form textarea {
@@ -63,7 +63,7 @@ form button{
       display: flex;
       flex-direction: column;
       height: 100vh;
-
+      gap: 10px;
     }
 
 .logo {
@@ -71,7 +71,7 @@ form button{
   }
 
   form{
-    height: 50vh;
+    height: 60vh;
     margin: 1em;
   }
 
@@ -114,7 +114,7 @@ form button{
     display: flex;
     flex-direction: column;
     margin: 0.5em;
-    height: 50vh;
+    height: 60vh;
   }
 
   form textarea{
