@@ -46,7 +46,7 @@ form button{
 }
 
 
-@media (min-width:1050px ){
+@media (min-width:1010px ){
   main {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -55,13 +55,13 @@ form button{
   }
 
   form{
-    margin-left: 1em;
+    margin-left: 2em;
     margin-top: 2em;
-    height: 80vh;
+    height: 70vh;
   }
 
   form textarea {
-    height: 60vh;
+    height: 70vh;
     width: 90%;
     font-size: 30px;
     
@@ -147,17 +147,18 @@ form button{
 
   form textarea{
     font-size: 20px;
+    margin-left: 1em;
     
   }
 
   .mensagem-atencao {
-    font-size: 15px;
+    font-size: 12px;
   }
 
 
   form button{
     margin: 0.3em 0em;
-    font-size: 20px;
+    font-size: 15px;
     width: 100%;
     padding: 1.2em;
   }
@@ -168,7 +169,7 @@ form button{
   }
 
   .inserir-mensagem{
-    font-size: 15px;
+    font-size: 12px;
   }
   
 }
