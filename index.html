@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador</title>
+
+  <link rel="stylesheet" href="style-decode.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <main>
+    <section class="principal">
+
+      <img src="assets/logo.png" alt="Logo da Alura" class="logo">
+
+      <form action="">
+
+          <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite sua mensagem" class="entrada-texto" required autofocus></textarea>
+
+          <div class="mensagem-atencao">
+            <img src="assets/atention.png" alt="Logo de atenção">
+            <span>Apenas letras minúsculas e sem acento.</span>
+          </div>
+         
+          <div class="btn">
+            <button type="submit" class="cripto" onclick="criptografar">
+            Criptografar</button>
+
+            <button type="submit" class="descripto" onclick="descriptografar">
+            Descriptografar</button>
+          </div>
+          
+
+      </form>
+    </section>
+
+    <section class="exibidor-de-texto">
+
+      <div class="inserir-mensagem">
+        <img src="assets/img-highquality.svg" alt="">
+        <h4>Nenhuma mensagem encontrada</h4>
+        <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+      </div>
+
+      <!--
+        ser exibido apenas quando retornar o resultado da cripto ou descripto
+      <div class="mensagem-resultante">
+        <p class="resultado"></p>
+        <button>Copiar</button>
+      </div>
+      -->
+    </section>
+
+  </main>
+  
+</body>
+</html>

@@ -1,0 +1,149 @@
+body *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter, sans-serif;
+}
+
+body{
+  background: #F3F5FC;
+  height: 100vh;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 100vh;
+
+  margin: 1em 2em;
+}
+
+form textarea {
+  border-style: none;
+  resize: none;
+  background: #F3F5FC;
+
+  font-family: inter;
+  height: 60vh;
+
+  width: 100%;
+
+}
+
+form button{
+  border-radius: 1.5em;
+  border: 2px solid #0A3871;
+  padding: 1.5em;
+
+}
+
+.cripto {
+  color: #FFFFFF;
+  background-color: #0A3871;
+}
+  
+.descripto {
+  color: #0A3871;
+  background-color: #D8DFE8;
+}
+
+.exibidor-de-texto{
+  background-color: #FFFFFF;
+  border-radius: 2em;
+  padding: 2em;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+
+
+@media (max-width:1000px){
+
+  main {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      gap: 10px;
+
+    }
+
+.logo {
+    margin: 0.8em;
+  }
+
+  form{
+    height: 60vh;
+    margin: 1em;
+  }
+
+  form textarea{
+    font-size: 32px;
+    height: 70%;
+  }
+
+  .mensagem-atencao {
+    font-size: 25px;
+  }
+
+  form button {
+    margin: 0.8em 0.2em;
+    font-size: 30px;
+    padding: 40px;
+    width: 47%;
+    display: inline;
+    
+  }
+
+  .inserir-mensagem {
+    font-size: 25px;
+  }
+
+  .exibidor-de-texto img {
+      display: none;
+    }
+
+}
+
+
+@media  (max-width:740px) {
+  main{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    height: 60vh;
+  }
+
+  form textarea{
+    font-size: 20px;
+    
+  }
+
+  .mensagem-atencao {
+    font-size: 15px;
+  }
+
+
+  form button{
+    margin: 0.3em 0em;
+    font-size: 20px;
+    width: 100%;
+    padding: 1.2em;
+  }
+
+  .exibidor-de-texto{
+    margin: 0.5em 0.3em;
+  
+  }
+
+  .inserir-mensagem{
+    font-size: 18px;
+  }
+  
+}
+
