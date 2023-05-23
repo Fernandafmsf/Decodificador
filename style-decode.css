@@ -64,7 +64,6 @@ form button{
       flex-direction: column;
       height: 100vh;
 
-
     }
 
 .logo {
@@ -72,7 +71,7 @@ form button{
   }
 
   form{
-    height: 60vh;
+    height: 50vh;
     margin: 1em;
   }
 
@@ -103,7 +102,6 @@ form button{
     }
 
 }
-
 
 @media  (max-width:740px) {
   main{
