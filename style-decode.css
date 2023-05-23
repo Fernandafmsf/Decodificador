@@ -63,7 +63,7 @@ form button{
       display: flex;
       flex-direction: column;
       height: 100vh;
-      gap: 10px;
+      gap: 5px;
     }
 
 .logo {
@@ -140,7 +140,7 @@ form button{
   }
 
   .inserir-mensagem{
-    font-size: 18px;
+    font-size: 15px;
   }
   
 }
