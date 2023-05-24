@@ -7,6 +7,7 @@
   <title>Decodificador</title>
 
   <link rel="stylesheet" href="style-decode.css">
+  
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,7 @@
 
 </head>
 <body>
+ 
 
   <main>
     <section class="principal">
@@ -22,7 +24,7 @@
 
       <form action="">
 
-          <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite sua mensagem" class="entrada-texto" required ></textarea>
+          <textarea name="texto" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" class="entrada-texto" required ></textarea>
 
           <div class="mensagem-atencao">
             <img src="assets/atention.png" alt="Logo de atenção">
@@ -30,10 +32,10 @@
           </div>
          
           <div class="btn">
-            <button type="submit" class="cripto" onclick="criptografar">
+            <button type="submit" class="cripto" onclick="criptografar()">
             Criptografar</button>
 
-            <button type="submit" class="descripto" onclick="descriptografar">
+            <button type="submit" class="descripto" onclick="descriptografar()">
             Descriptografar</button>
           </div>
           
@@ -59,6 +61,8 @@
     </section>
 
   </main>
+
+  <script src="script.js"></script>
   
 </body>
 </html>

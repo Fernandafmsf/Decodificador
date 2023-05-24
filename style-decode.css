@@ -46,7 +46,7 @@ form button{
 }
 
 
-@media (min-width:1010px ){
+@media (min-width:1001px ){
   main {
     display: grid;
     grid-template-columns: 2fr 1fr;
