@@ -20,6 +20,31 @@ form textarea {
 
 }
 
+.resultado{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.texto-resultado{
+  /*border-style: none;*/
+  resize: none;
+  font-size: 20px;
+  height: 65vh;
+  font-family: inter;
+}
+
+.btn-copiar{
+  border-radius: 1.5em;
+  border: 2px solid #0A3871;
+  padding: 2em;
+  width: 80%;
+  
+}
+
 form button{
   border-radius: 1.5em;
   border: 2px solid #0A3871;
@@ -56,12 +81,12 @@ form button{
 
   form{
     margin-left: 2em;
-    margin-top: 2em;
+    margin-top: 1em;
     height: 70vh;
   }
 
   form textarea {
-    height: 70vh;
+    height: 60vh;
     width: 90%;
     font-size: 30px;
     
@@ -78,8 +103,6 @@ form button{
     display: flex;
     align-items: center;
   }
-
-
 
 }
 
@@ -127,6 +150,23 @@ form button{
 
   .exibidor-de-texto img {
       display: none;
+    }
+    
+  .texto-resultado {
+      border-style: none;
+      resize: none;
+      font-size: 20px;
+      height: 15vh;
+      font-family: inter;
+      width: 100%;
+    }
+    
+  .btn-copiar {
+      border-radius: 1.5em;
+      border: 2px solid #0A3871;
+      padding: 1.2em;
+      width: 80%;
+      font-size: 20px;
     }
 
 }
