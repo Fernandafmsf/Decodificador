@@ -15,16 +15,11 @@ function btnEncriptar(){
   divresultado.style.display = "block";
 }
 
-function btnDesencriptar(){
-  descriptografar(textArea.value);
-  textArea.value= " "; 
-  resposta.style.display = "none";
-  divresultado.style.display = "block";
-}
+
 
 function criptografar(stringEncriptada){
  
-  let matrizCodigo = [["e", "enter"], ["i", "inter"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]]; 
+  let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]]; 
   stringEncriptada = stringEncriptada.toLowerCase();
 
   for (let i = 0; i < matrizCodigo.length; i++){
@@ -34,14 +29,20 @@ function criptografar(stringEncriptada){
     }
   }
  
-
   textoResultado.innerText = stringEncriptada;
 
 }
 
+function btnDesencriptar(){
+  descriptografar(textArea.value);
+  textArea.value= " "; 
+  resposta.style.display = "none";
+  divresultado.style.display = "block";
+}
+
 function descriptografar(stringDesencriptada){
   
-  let matrizCodigo = [["e", "enter"], ["i", "inter"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]]; 
+  let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]]; 
   stringDesencriptada = stringDesencriptada.toLowerCase();
 
   for (let i = 0; i < matrizCodigo.length; i++){

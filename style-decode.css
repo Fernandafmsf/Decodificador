@@ -30,7 +30,7 @@ form textarea {
 }
 
 .texto-resultado{
-  /*border-style: none;*/
+  border-style: none;
   resize: none;
   font-size: 20px;
   height: 65vh;
