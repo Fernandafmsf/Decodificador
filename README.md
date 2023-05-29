@@ -23,3 +23,11 @@ A letra "u" é convertida para "ufat" </p>
   <li>O resultado deve ser exibido na tela.</li>
   <li>Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.</li>
 </ul>
+
+<h4><strong>Aprendizados mais impactantes</strong></h4>
+<ul>
+  <li>Adicionar um botão do tipo submit fará com que a página seja atualizada toda vez que ele for pressionado, já que ele envia formulários. Utilizar um que tenha tipo "button" para que isso não ocorra;</li>
+  <li>Utilização de matriz para fazer a criptografia;</li>
+  <li>Criação de botão que copia textos;</li>
+  <li>Como habilitar e desabilitar a visualização de uma div. </li>
+</ul>

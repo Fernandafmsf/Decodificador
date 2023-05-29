@@ -4,7 +4,7 @@ const resposta = document.querySelector(".inserir-mensagem");
 const divresultado = document.querySelector(".resultado");
 const textoResultado= document.querySelector(".texto-resultado");
 
-divresultado.style.display = "none";
+divresultado.style.display = "none"; //desabilita a visualização da div
 
 
 
@@ -12,7 +12,7 @@ function btnEncriptar(){
   criptografar(textArea.value);
   textArea.value = " ";
   resposta.style.display = "none";
-  divresultado.style.display = "block";
+  divresultado.style.display = "block";//habilita a visualização da div
 }
 
 
