@@ -7,12 +7,12 @@ const textoResultado= document.querySelector(".texto-resultado");
 divresultado.style.display = "none";
 
 
+
 function btnEncriptar(){
   criptografar(textArea.value);
   textArea.value = " ";
   resposta.style.display = "none";
   divresultado.style.display = "block";
-  
 }
 
 function btnDesencriptar(){
@@ -33,7 +33,7 @@ function criptografar(stringEncriptada){
       stringEncriptada=stringEncriptada.replaceAll(matrizCodigo[i][0], matrizCodigo[i][1]);
     }
   }
-  alert(stringEncriptada) ;
+ 
 
   textoResultado.innerText = stringEncriptada;
 
@@ -51,10 +51,16 @@ function descriptografar(stringDesencriptada){
     }
   }
 
-  alert(stringDesencriptada) ;
   textoResultado.innerText = stringDesencriptada;
 
 }
 
+
+function copiarTexto(){
+  textoResultado.select();
+  textoResultado.setSelectionRange(0,99999);
+  document.execCommand("copy");
+  alert("Texto copiado"); 
+}
 
 
